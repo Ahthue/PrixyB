@@ -18,8 +18,9 @@
 	<body>
 
 		<?php 
-			include('nav.html');
+			include('nav.php');
 			include ('fonction.inc.php');	
+
 		?>
 
 		<!--SUR MESURE-->
@@ -162,7 +163,7 @@
 			?>
 		</div>
 				
-		<?php include ('footer.html'); ?>
+		<?php include ('footer.php'); ?>
 
 	</body>
 </html>

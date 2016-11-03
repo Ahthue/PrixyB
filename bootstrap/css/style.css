@@ -11,6 +11,16 @@ button.loupe {
   display: none;
 }
 
+.anav {
+    text-decoration: none;
+    color: white;
+}
+
+.anav:hover {
+    text-decoration: none;
+    color: white;
+}
+
 /*MEDIA SCREEN*/
 
 @media screen and (max-width: 1000px){
@@ -91,31 +101,6 @@ button.loupe {
 	}
 }
 
-@media screen and (max-width : 1320px) {
-
-	.presentation_form {
-		height: 160px!important;
-		text-decoration: none;
-	}
-	
-	h3:hover{
-		text-decoration: none;
-	}
-
-}
-
-@media screen and (max-width : 740px) {
-
-	.presentation_form {
-		height: 200px!important;
-	}
-	
-	h3:hover{
-		text-decoration: none;
-	}
-
-}
-
 /*PARTENAIRES*/
 
 .partenaire {
@@ -146,12 +131,9 @@ h1 {
 	margin: 50px 0px;
 }
 
-h2 {	
+h2
+{	
 	background-color : #e0eaf8;
-}
-
-h2:hover {
-	text-decoration: none;
 }
 
 h4 {
@@ -180,6 +162,27 @@ h4 {
 
 .navbar-inverse .navbar-nav > li > a {
 	color: #fff;
+}
+
+.co {
+    margin-left: 200px;
+    background: #339aff;
+    transition: none;
+}
+
+.co:hover {
+    background: #333;
+    border: 1px solid #339aff;
+    border-radius: 4px;
+    height: auto;
+}
+
+.btn_langue {
+    margin-top: 8px;
+}
+
+.btn_langue:hover {
+    background: none;
 }
 
 /*CONTACT*/
@@ -213,44 +216,42 @@ h4 {
     font-size: 22px;
 }
 
-.presentation_form
-{
-	border-left: 4px solid #1f497e;	
+.presentation_form {
+    height: 120px;
+	border-left : 4px solid #1f497e;
 	background-color : #e0eaf8;	
-	padding : 15px;
-	margin : 1em;
-	transition : all .2s ease-in-out;
-	border-radius : 1px;
-	height: 110px;
+    padding: 15px;
+	margin : 1em; 
+    transition: all .2s ease-in-out;
+    border-radius: 1px;
 }
 
 .presentation_form a {
-	color : #000;
+    color: #000;
 }
 
-.presentation_form a:hover {
-	text-decoration: none;
+.presentation_form a:hover{
+    text-decoration: none;
 }
 
-.presentation_form:hover
-{
-	border-left : 10px solid #1f497e;
-	transition : all .2s ease-in-out;
-	opacity : 0.9;	
+.presentation_form:hover {
+    border-left: 10px solid #1f497e;
+    transition: all .2s ease-in-out;
+    opacity: 0.9;
+}
+
+#page_formation h2 {
+    color: #000;
+    padding: 15px;
+    margin: 0 10px;
+    border-left : 4px solid #1f497e;
 }
 
 /*PAGE_FORMATION*/
+
 .objectif
 {
 	text-align : justify;
-}
-
-#page_formation h2
-{
-	color : #000;
-	padding : 15px;
-	margin : 0 10px;
-	border-left : 4px solid #1f497e;
 }
 
 /*LEQUIPE*/
@@ -267,10 +268,24 @@ h4 {
     text-align: left;
 }
 
+/*SECONNECTER*/
+
+.input-co {
+    margin-top: 50px;
+}
+
+.input-group, .funkyradio-rose, .funkyradio-primary {
+    margin-top: 10px;
+}
+
+.aled {
+    margin-bottom: 43%;
+}
+
 /*FOOTER*/
 
 .navbar-bottom{
-    margin-bottom: 0px!important;	
+    margin-bottom: 0px!important;
 }
 
 /*TIMELINE*/
@@ -457,6 +472,12 @@ h4 {
             left: -14px;
             right: auto;
         }
+}
+
+@media (max-width: 890px) {
+    .co {
+        margin-left: 0px;
+    }
 }
 
 /*BS-CALLOUT-ACCUEIL*/

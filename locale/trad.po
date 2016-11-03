@@ -1,0 +1,258 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Prixy\n"
+"POT-Creation-Date: 2016-10-20 13:36+0200\n"
+"PO-Revision-Date: 2016-10-20 13:37+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ../../..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: phpapps/phpmyadmin/doc/html/_static/doctools.js:142
+msgid "Permalink to this headline"
+msgstr ""
+
+#: phpapps/phpmyadmin/doc/html/_static/doctools.js:148
+msgid "Permalink to this definition"
+msgstr ""
+
+#: phpapps/phpmyadmin/doc/html/_static/doctools.js:180
+msgid "Hide Search Matches"
+msgstr ""
+
+#: phpapps/phpmyadmin/doc/html/_static/searchtools.js:299
+msgid "Searching"
+msgstr ""
+
+#: phpapps/phpmyadmin/doc/html/_static/searchtools.js:304
+msgid "Preparing search..."
+msgstr ""
+
+#: phpapps/phpmyadmin/doc/html/_static/searchtools.js:461
+msgid "Search Results"
+msgstr ""
+
+#: phpapps/phpmyadmin/doc/html/_static/searchtools.js:463
+msgid ""
+"Your search did not match any documents. Please make sure that all words are "
+"spelled correctly and that you've selected enough categories."
+msgstr ""
+
+#: phpapps/phpmyadmin/doc/html/_static/searchtools.js:465
+#, javascript-format
+msgid "Search finished, found %s page(s) matching the search query."
+msgstr ""
+
+#: phpapps/phpmyadmin/doc/html/_static/searchtools.js:517
+msgid ", in "
+msgstr ""
+
+#: phpapps/phpmyadmin/doc/html/_static/sidebar.js:77
+msgid "Expand sidebar"
+msgstr ""
+
+#: phpapps/phpmyadmin/doc/html/_static/sidebar.js:90
+#: phpapps/phpmyadmin/doc/html/_static/sidebar.js:118
+msgid "Collapse sidebar"
+msgstr ""
+
+#: phpapps/phpmyadmin/js/jquery/jquery-ui-1.11.2.min.js:10
+msgid "'"
+msgstr ""
+
+#: www/Prixy PPE/index.php:38
+msgid ""
+"Implantée à Lyon, PRIXY s’adresse principalement aux petites et moyennes "
+"entreprises ainsi qu’aux collectivités ; elle accompagne ses clients dans la "
+"définition et la mise en œuvre de solutions de formation. En 2015, PRIXY a "
+"assuré la montée en compétences de près de 2 500 collaborateurs des secteurs "
+"privés et publics, pour un chiffre d’affaires de 950 000 €."
+msgstr ""
+"Based in Lyon, PRIXY is intended primarily for small and medium businesses "
+"and communities; it supports its clients in the definition and "
+"implementation of training solutions. In 2015, PRIXY assured the skills rise "
+"of nearly 2 500 employees of private and public sectors, for a turnover of € "
+"950,000."
+
+#: www/Prixy PPE/nav.php:23
+msgid "L'équipe"
+msgstr "Team"
+
+#: www/Prixy PPE/nav.php:30
+msgid "Formations"
+msgstr "Training"
+
+#: www/airinterim/wp-includes/class-pop3.php:92
+#: www/erftm/wp-includes/class-pop3.php:92
+#: www/pmduc/wp-includes/class-pop3.php:92
+msgid "No server specified"
+msgstr ""
+
+#: www/airinterim/wp-includes/class-pop3.php:100
+#: www/airinterim/wp-includes/class-pop3.php:112
+#: www/airinterim/wp-includes/class-pop3.php:133
+#: www/airinterim/wp-includes/class-pop3.php:256
+#: www/airinterim/wp-includes/class-pop3.php:310
+#: www/airinterim/wp-includes/class-pop3.php:321
+#: www/airinterim/wp-includes/class-pop3.php:369
+#: www/airinterim/wp-includes/class-pop3.php:403
+#: www/airinterim/wp-includes/class-pop3.php:436
+#: www/airinterim/wp-includes/class-pop3.php:535
+#: www/airinterim/wp-includes/class-pop3.php:558
+#: www/erftm/wp-includes/class-pop3.php:100
+#: www/erftm/wp-includes/class-pop3.php:112
+#: www/erftm/wp-includes/class-pop3.php:133
+#: www/erftm/wp-includes/class-pop3.php:256
+#: www/erftm/wp-includes/class-pop3.php:310
+#: www/erftm/wp-includes/class-pop3.php:321
+#: www/erftm/wp-includes/class-pop3.php:369
+#: www/erftm/wp-includes/class-pop3.php:403
+#: www/erftm/wp-includes/class-pop3.php:436
+#: www/erftm/wp-includes/class-pop3.php:535
+#: www/erftm/wp-includes/class-pop3.php:558
+#: www/pmduc/wp-includes/class-pop3.php:100
+#: www/pmduc/wp-includes/class-pop3.php:112
+#: www/pmduc/wp-includes/class-pop3.php:133
+#: www/pmduc/wp-includes/class-pop3.php:256
+#: www/pmduc/wp-includes/class-pop3.php:310
+#: www/pmduc/wp-includes/class-pop3.php:321
+#: www/pmduc/wp-includes/class-pop3.php:369
+#: www/pmduc/wp-includes/class-pop3.php:403
+#: www/pmduc/wp-includes/class-pop3.php:436
+#: www/pmduc/wp-includes/class-pop3.php:535
+#: www/pmduc/wp-includes/class-pop3.php:558
+msgid "Error "
+msgstr ""
+
+#: www/airinterim/wp-includes/class-pop3.php:125
+#: www/erftm/wp-includes/class-pop3.php:125
+#: www/pmduc/wp-includes/class-pop3.php:125
+msgid "no login ID submitted"
+msgstr ""
+
+#: www/airinterim/wp-includes/class-pop3.php:128
+#: www/airinterim/wp-includes/class-pop3.php:148
+#: www/erftm/wp-includes/class-pop3.php:128
+#: www/erftm/wp-includes/class-pop3.php:148
+#: www/pmduc/wp-includes/class-pop3.php:128
+#: www/pmduc/wp-includes/class-pop3.php:148
+msgid "connection not established"
+msgstr ""
+
+#: www/airinterim/wp-includes/class-pop3.php:145
+#: www/airinterim/wp-includes/class-pop3.php:181
+#: www/erftm/wp-includes/class-pop3.php:145
+#: www/erftm/wp-includes/class-pop3.php:181
+#: www/pmduc/wp-includes/class-pop3.php:145
+#: www/pmduc/wp-includes/class-pop3.php:181
+msgid "No password submitted"
+msgstr ""
+
+#: www/airinterim/wp-includes/class-pop3.php:153
+#: www/erftm/wp-includes/class-pop3.php:153
+#: www/pmduc/wp-includes/class-pop3.php:153
+msgid "Authentication failed"
+msgstr ""
+
+#: www/airinterim/wp-includes/class-pop3.php:172
+#: www/airinterim/wp-includes/class-pop3.php:215
+#: www/airinterim/wp-includes/class-pop3.php:240
+#: www/airinterim/wp-includes/class-pop3.php:282
+#: www/airinterim/wp-includes/class-pop3.php:356
+#: www/airinterim/wp-includes/class-pop3.php:396
+#: www/airinterim/wp-includes/class-pop3.php:426
+#: www/airinterim/wp-includes/class-pop3.php:460
+#: www/airinterim/wp-includes/class-pop3.php:523
+#: www/airinterim/wp-includes/class-pop3.php:588
+#: www/erftm/wp-includes/class-pop3.php:172
+#: www/erftm/wp-includes/class-pop3.php:215
+#: www/erftm/wp-includes/class-pop3.php:240
+#: www/erftm/wp-includes/class-pop3.php:282
+#: www/erftm/wp-includes/class-pop3.php:356
+#: www/erftm/wp-includes/class-pop3.php:396
+#: www/erftm/wp-includes/class-pop3.php:426
+#: www/erftm/wp-includes/class-pop3.php:460
+#: www/erftm/wp-includes/class-pop3.php:523
+#: www/erftm/wp-includes/class-pop3.php:588
+#: www/pmduc/wp-includes/class-pop3.php:172
+#: www/pmduc/wp-includes/class-pop3.php:215
+#: www/pmduc/wp-includes/class-pop3.php:240
+#: www/pmduc/wp-includes/class-pop3.php:282
+#: www/pmduc/wp-includes/class-pop3.php:356
+#: www/pmduc/wp-includes/class-pop3.php:396
+#: www/pmduc/wp-includes/class-pop3.php:426
+#: www/pmduc/wp-includes/class-pop3.php:460
+#: www/pmduc/wp-includes/class-pop3.php:523
+#: www/pmduc/wp-includes/class-pop3.php:588
+msgid "No connection to server"
+msgstr ""
+
+#: www/airinterim/wp-includes/class-pop3.php:178
+#: www/erftm/wp-includes/class-pop3.php:178
+#: www/pmduc/wp-includes/class-pop3.php:178
+msgid "No login ID submitted"
+msgstr ""
+
+#: www/airinterim/wp-includes/class-pop3.php:186
+#: www/erftm/wp-includes/class-pop3.php:186
+#: www/pmduc/wp-includes/class-pop3.php:186
+msgid "No server banner"
+msgstr ""
+
+#: www/airinterim/wp-includes/class-pop3.php:186
+#: www/airinterim/wp-includes/class-pop3.php:196
+#: www/erftm/wp-includes/class-pop3.php:186
+#: www/erftm/wp-includes/class-pop3.php:196
+#: www/pmduc/wp-includes/class-pop3.php:186
+#: www/pmduc/wp-includes/class-pop3.php:196
+msgid "abort"
+msgstr ""
+
+#: www/airinterim/wp-includes/class-pop3.php:196
+#: www/erftm/wp-includes/class-pop3.php:196
+#: www/pmduc/wp-includes/class-pop3.php:196
+msgid "apop authentication failed"
+msgstr ""
+
+#: www/airinterim/wp-includes/class-pop3.php:333
+#: www/erftm/wp-includes/class-pop3.php:333
+#: www/pmduc/wp-includes/class-pop3.php:333
+msgid "Premature end of list"
+msgstr ""
+
+#: www/airinterim/wp-includes/class-pop3.php:466
+#: www/erftm/wp-includes/class-pop3.php:466
+#: www/pmduc/wp-includes/class-pop3.php:466
+msgid "Empty command string"
+msgstr ""
+
+#: www/airinterim/wp-includes/class-pop3.php:486
+#: www/erftm/wp-includes/class-pop3.php:486
+#: www/pmduc/wp-includes/class-pop3.php:486
+msgid "connection does not exist"
+msgstr ""
+
+#: www/airinterim/wp-includes/class-pop3.php:593
+#: www/erftm/wp-includes/class-pop3.php:593
+#: www/pmduc/wp-includes/class-pop3.php:593
+msgid "No msg number submitted"
+msgstr ""
+
+#: www/airinterim/wp-includes/class-pop3.php:599
+#: www/erftm/wp-includes/class-pop3.php:599
+#: www/pmduc/wp-includes/class-pop3.php:599
+msgid "Command failed "
+msgstr ""
+
+#: www/php-gettext-1.0.12/examples/pigs_dropin.php:77
+msgid ""
+"This is how the story goes.\n"
+"\n"
+msgstr ""

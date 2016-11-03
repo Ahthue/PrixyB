@@ -1,0 +1,231 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Prixy\n"
+"POT-Creation-Date: 2016-10-30 15:45+0100\n"
+"PO-Revision-Date: 2016-10-30 15:45+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ../../..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: T_\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: footer.php:4
+msgid "Développé pour la société Prixy Formation"
+msgstr "Developed for the company Prixy "
+
+#: footer.php:4
+msgid "Obligations légales"
+msgstr "Legal notice"
+
+#: index.php:31
+msgid "La société"
+msgstr "The society"
+
+#: index.php:31
+msgid ""
+"est un jeune acteur sur le marché de la formation à destination des "
+"professionnels. Elle a été créée fin 2013 par deux associés,"
+msgstr ""
+"is a young player in the training market for professionals. It was created "
+"in late 2013 by two partners,"
+
+#: index.php:32
+msgid "la formation industrielle et "
+msgstr "idustrial training and "
+
+#: index.php:32
+msgid "expert-formateur spécialisé dans "
+msgstr "trainer-expert in "
+
+#: index.php:33
+msgid "la formation aux technologies de l’information et de la communication."
+msgstr "training in information and communications technology."
+
+#: index.php:35
+msgid ""
+"Implantée à Lyon, PRIXY s’adresse principalement aux petites et moyennes "
+"entreprises ainsi qu’aux collectivités ; elle accompagne ses clients dans la "
+"définition et la mise en œuvre de solutions de formation. En 2015, PRIXY a "
+"assuré la montée en compétences de près de 2 500 collaborateurs des secteurs "
+"privés et publics, pour un chiffre d’affaires de 950 000 €."
+msgstr ""
+"Based in Lyon, PRIXY is intended primarily for small and medium businesses "
+"and communities; it supports its clients in the definition and "
+"implementation of training solutions. In 2015, PRIXY assured the skills rise "
+"of nearly 2 500 employees of private and public sectors, for a turnover of € "
+"950,000."
+
+#: index.php:44
+msgid "Perspectives d'évolution du systeme d'information"
+msgstr "Evolution of the information system perspective"
+
+#: index.php:46
+msgid "PROJETS"
+msgstr "PROJECTS"
+
+#: index.php:54
+msgid "Nouvelle salle de formation"
+msgstr "New training room"
+
+#: index.php:57
+msgid ""
+"Grâce aux nouvelles demande de formations, Prixy a de plus en plus de mal à "
+"répondre à tous. Les deux salles de formation ne suffisent plus. PRIXY "
+"souhaite équiper une troisième salle de formation. Elle dispose d’un espace "
+"vacant idéal pour accueillir cette nouvelle salle."
+msgstr ""
+"With new demand for training, Prixy more and more difficult to respond to "
+"all. The two classrooms are not enough. PRIXY wants to equip a third "
+"training room. It has a vacant ideal space for this new room."
+
+#: index.php:66
+msgid "Reconfiguration automatique"
+msgstr "Automatic reconfiguration"
+
+#: index.php:69
+msgid ""
+"Les sessions de formation s’enchaînent, C. Joubert ne parvient plus à "
+"préparer dans de bonnes conditions les salles avant chaque formation ; le "
+"système de reconfiguration des salles qui convenait jusqu’alors pour une "
+"activité moyenne, trouve aujourd’hui ses limites."
+msgstr ""
+"The training sessions are connected, C. Joubert no longer able to prepare in "
+"good conditions before each training rooms; the reconfiguration of the rooms "
+"until system that suited for medium business, today has its limits."
+
+#: index.php:71
+msgid ""
+"C.Joubert souhaite mettre en place un dispositif permettant d’automatiser la "
+"reconfiguration des postes avant chaque nouvelle session de formation."
+msgstr ""
+"C.Joubert wants to set up a system to automate the reconfiguration of "
+"positions before each training session."
+
+#: index.php:80
+msgid "Centralisation du stockage"
+msgstr "Centralized storage"
+
+#: index.php:83
+msgid ""
+"Afin d’éviter les manipulations de fichiers répétitives, fastidieuses, "
+"sources d’erreur,..., les formateurs souhaitent disposer d’une solution "
+"permettant de gérer de manière plus rationnelle les ressources mises à "
+"disposition des participants ainsi que les productions des stagiaires."
+msgstr ""
+"To avoid repetitive manipulation of files, tedious, error sources, ..., "
+"trainers desire a solution to manage more efficiently the resources made "
+"available to participants and the trainees productions."
+
+#: index.php:84
+msgid ""
+"PRIXY envisage de se tourner vers une solution permettant de centraliser le "
+"stockage des fichiers. Cette solution se devra d’être sécurisée."
+msgstr ""
+"PRIXY plans to turn to a solution that centralizes the storage of files. "
+"This solution must be secure."
+
+#: index.php:93
+msgid "Accés Wifi"
+msgstr "WiFi access"
+
+#: index.php:96
+msgid ""
+"Pour répondre à une demande récurrente de la part des participants, PRIXY "
+"veut mettre à disposition de ses clients un accès wifi gratuit."
+msgstr ""
+"To meet a recurring demand from participants, PRIXY wants to provide its "
+"customers free wifi."
+
+#: index.php:104
+msgid "Salle à louer"
+msgstr "Room for rent"
+
+#: index.php:107
+msgid ""
+"PRIXY envisage également de proposer dans son offre de services une nouvelle "
+"prestation : la mise à disposition de la salle « Beryl ». PRIXY veut pouvoir "
+"louer cet espace soit à des autoentrepreneurs ne disposant d’aucun local ou "
+"à des petites entreprises souhaitant organiser des séminaires ou des "
+"présentations commerciales d’envergure."
+msgstr ""
+"PRIXY also plans to propose in its offering a new service: the provision of "
+"the room \"Beryl\". PRIXY wants to rent this space either to "
+"autoentrepreneurs not have any local or small business wishing to organize "
+"seminars or commercial-scale presentations."
+
+#: index.php:112
+msgid "Présent"
+msgstr "Present"
+
+#: index.php:117
+msgid "Installation de deux salles"
+msgstr "Installation of two rooms"
+
+#: index.php:121
+msgid "Les salles informatiques « Jaspe » et « Opale »."
+msgstr "Computer rooms \"Jasper\" and \"Opal.\""
+
+#: index.php:130
+msgid "Création de Prixy : 2013"
+msgstr "Creation of Prixy : 2013"
+
+#: index.php:133
+msgid ""
+"Créée fin 2013 par deuxassociés, S. Millot, consultant depuis plus de dix "
+"ans dans le secteur dela formation industrielle et C. Joubert, expert-"
+"formateur spécialisé dans la formation aux technologies de l’information et "
+"de la communication."
+msgstr ""
+"Founded in late 2013 by deuxassociés, S. Millot, consultant for over ten "
+"years in the industrial sector and training dela C. Joubert, trainer-expert "
+"in training in information and communications technology."
+
+#: nav.php:45
+msgid "Accueil"
+msgstr "Home"
+
+#: nav.php:52
+msgid "L'équipe"
+msgstr "Team"
+
+#: nav.php:59
+msgid "Formations"
+msgstr "Training"
+
+#: nav.php:66
+msgid "Contact"
+msgstr "Contact"
+
+#: nav.php:66
+msgid "Partenaires"
+msgstr "Partners"
+
+#: nav.php:106
+msgid "Connexion"
+msgstr "Connection"
+
+#: nav.php:109
+msgid "Inscription"
+msgstr "Registration"
+
+#: nav.php:117
+msgid "Langue"
+msgstr "Language"
+
+#: nav.php:122
+msgid "Français"
+msgstr "French"
+
+#: nav.php:123
+msgid "Anglais"
+msgstr "English"
+
+#~ msgid "Mentions légales"
+#~ msgstr "Legal notice"

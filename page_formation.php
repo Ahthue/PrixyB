@@ -18,7 +18,7 @@
 
 	<body>
 		<?php 
-			include('nav.html');	
+			include('nav.php');	
 			include('fonction.inc.php');
 			
 			//Traitement de la référence
@@ -158,6 +158,6 @@
 				echo '</div>';
 			echo '</div>';
 		?>
-		<?php include ('footer.html'); ?>
+		<?php include ('footer.php'); ?>
 	</body>
 </html>
