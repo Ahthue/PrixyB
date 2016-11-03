@@ -16,7 +16,7 @@
 
 	<body>
 
-<?php include('nav.html'); ?>
+<?php include('nav.php'); ?>
 
 <!--L'EQUIPE-->
 
@@ -150,7 +150,7 @@
         </div>
 </div>
 
-<?php include ('footer.html'); ?>
+<?php include ('footer.php'); ?>
 
 	</body>
 </html>

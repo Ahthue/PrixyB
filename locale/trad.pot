@@ -1,0 +1,49 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Prixy\n"
+"POT-Creation-Date: 2016-10-21 12:16+0200\n"
+"PO-Revision-Date: 2016-10-19 23:49+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: T_\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: index.php:37
+msgid "Implantée à Lyon, PRIXY s’adresse principalement aux petites et moyennes entreprises ainsi qu’aux collectivités ; elle accompagne ses clients dans la définition et la mise en œuvre de solutions de formation. En 2015, PRIXY a assuré la montée en compétences de près de 2 500 collaborateurs des secteurs privés et publics, pour un chiffre d’affaires de 950 000 €."
+msgstr ""
+
+#: nav.php:38
+msgid "L'équipe"
+msgstr ""
+
+#: nav.php:45
+msgid "Formations"
+msgstr ""
+
+#: nav.php:52
+msgid "Contact"
+msgstr ""
+
+#: nav.php:52
+msgid "Partenaires"
+msgstr ""
+
+#: nav.php:103
+msgid "Langue"
+msgstr ""
+
+#: nav.php:108
+msgid "Français"
+msgstr ""
+
+#: nav.php:109
+msgid "Anglais"
+msgstr ""
