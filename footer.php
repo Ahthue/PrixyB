@@ -2,7 +2,7 @@
 <div class="bg_footer">
 	<div class="footer container" style="margin-top:100px;">
 	  <div class="row">
-	  	<div class="col-lg-6 class_footer footer1">
+	  	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 class_footer footer1">
 	  		<div class="row row_footer">
 	  			> Développé pour la société Prixy Formation
 	  		</div>
@@ -10,7 +10,7 @@
 	  			> &copy; Copyright by <a href="#">Ell@Sio</a>
 	  		</div>
 	  	</div>
-	  	<div class="col-lg-6 class_footer text-right">
+	  	<div class="col-lg-6 col-md-6 col-sm-6 col-xs-6 class_footer footer2 text-right">
 	  		<div class="row row_footer">
 	        <a class="nav-link" href="#" title="Facebook">
 	          <i class="fa fa-facebook fa-2x"></i>
