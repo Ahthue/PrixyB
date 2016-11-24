@@ -21,85 +21,10 @@ button.loupe {
     color: white;
 }
 
-/*MEDIA SCREEN*/
-
-@media screen and (max-width: 1000px){
-
-  button.grosseloupe{
-    display:none;
-  }
-  button.loupe{
-    display: inline-block;
-  }
-
-  input.rechercher{
-  	width: 130px;
-  	margin: 0 auto;
-  	display: inline-block;
-  }
-
+#about {
+    margin-top: 200px;
 }
 
-
-@media screen and (max-width: 1235px){
-
-    .barrechercher {
-        display: none;
-    }
-
-    .imgpartenaires {
-        width: 50%;
-        text-align: center;
-    }
-}
-
-
-@media screen and (max-width: 770px){
-
-	a{
-		text-align: center;
-	}
-
-	form.navbar-form{
-	 	text-align: center;
-	 }
-
-	nav{
-	 	height: auto;
-	 }
-
-	a.navbar-brand {
-		width: 100%;
-	}
-
-	.imageprixy {
-		width: 40%;
-	}
-
-    body {
-        margin-top: 200px;
-    }
-
-    .adresse {
-        height: 300px!important;
-    }
-
-    .surmesure {
-        font-size: 14px!important;
-    }
-
-    .formations {
-        height: 800px!important;
-    }
-}
-
-@media screen and (max-width: 650px) {
-
-	h4 {
-		text-align: center;
-		font-size: 12px!important;
-	}
-}
 
 /*PARTENAIRES*/
 
@@ -131,27 +56,71 @@ h1 {
 	margin: 50px 0px;
 }
 
-h2
-{	
+h2 {	
 	background-color : #e0eaf8;
 }
 
 h4 {
-		text-align: center;
-		font-size: 18px;
-	}
+	text-align: center;
+	font-size: 18px;
+}
 
 /*NAVBAR*/
+
+.bgh2 {
+    background: none; 
+    margin-top: 18px;
+}
+
+.group_nav {
+    float: left;
+    height: 80px;
+    padding: 25px 15px 15px 15px;
+    line-height: 50px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.group_nav2 {
+    float: left;
+    height: 80px;
+    padding: 25px 15px 15px 15px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.item_nav {
+    float: left;
+    height: 80px;
+    padding: 15px 15px;
+    line-height: 50px;
+    font-size: 16px;
+    color: #fff;
+    transition: all 0.6s ease;
+}
+
+.item_nav:hover {
+    background: #339aff;
+    color: #fff;
+}
+
+b {
+    font-family: "Quicksand", Arial, sans-serif;
+    font-size: 16px;
+}
 
 .nav-item {
 	transition: all 0.6s ease;
 }
 
+a > .navbar-brand {
+    height: 0px;
+}
 
 .navbar-brand {
 	font-size: 48px;
 	font-family: "Impact";
-	letter-spacing:12px;
+	letter-spacing: 12px;
 	color: #66b3ff!important;
 
 }
@@ -287,6 +256,47 @@ h4 {
 .navbar-bottom{
     margin-bottom: 0px!important;
 }
+
+.class_footer {
+    padding: 15px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.row_footer {
+    padding: 10px;
+    font-size: 16px;
+}
+
+.footer1 {
+    border-right: 1px solid #fff;
+}
+
+/*.footer {
+    background: #66b3ff;
+}*/
+
+.bg_footer {
+    background: #337ab7;
+    color: #fff;
+}
+
+.bg_footer a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.bg_footer a:hover {
+    color: #000;
+}
+
+.bg_footer i {
+    padding-right: 20px;
+}
+.last_i{
+    padding-right: 0px!important;
+}
+
 
 /*TIMELINE*/
 
@@ -513,5 +523,127 @@ h4 {
 .bs-callout-danger h4{
     color: #66b3ff;
 }
+
+
+/*MEDIA SCREEN*/
+
+@media screen and (max-width: 1000px){
+
+  button.grosseloupe{
+    display:none;
+  }
+  button.loupe{
+    display: inline-block;
+  }
+
+  input.rechercher{
+    width: 130px;
+    margin: 0 auto;
+    display: inline-block;
+  }
+
+}
+
+
+@media screen and (max-width: 1235px){
+
+    .barrechercher {
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+    }
+
+    .imgpartenaires {
+        width: 50%;
+        text-align: center;
+    }
+
+    .nav-brand {
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+    }
+
+    .bgh2 {
+        text-align: center;
+    }
+
+    .items_nav {
+        text-align: center;
+    }
+
+    .buttons_grp {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+
+@media screen and (max-width: 770px){
+
+    a {
+        text-align: center;
+    }
+
+    form.navbar-form{
+        text-align: center;
+     }
+
+    nav {
+        height: auto;
+     }
+
+    a.navbar-brand {
+        width: 100%;
+    }
+
+    .imageprixy {
+        width: 40%;
+    }
+
+    body {
+        margin-top: 200px;
+    }
+
+    .adresse {
+        height: 300px!important;
+    }
+
+    .surmesure {
+        font-size: 14px!important;
+    }
+
+    .formations {
+        height: 800px!important;
+    }
+
+    .bgh2 {
+        text-align: center;
+    }
+
+    #about {
+        margin-top: 0px;
+    }
+}
+
+@media screen and (max-width: 650px) {
+
+    h4 {
+        text-align: center;
+        font-size: 12px!important;
+    }
+}
+
+@media screen and (max-width: 488px) {
+
+    .bg_footer i {
+        margin-bottom: 10px;
+    }
+
+    .footer2 {
+        text-align: center;
+    }
+}
+
 
 
