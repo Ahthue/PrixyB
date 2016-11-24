@@ -16,7 +16,14 @@
 
 	<body>
 
-<?php include('nav.php'); ?>
+<?php session_start(); ?>
+<?php include('testnav.php'); ?>
+<?php $langue = "fr-FR"; $page = "Equipe"; ?>
+
+<?php 
+	$str = array();
+	$str = change_langue($langue, $page); 
+?>
 
 <!--L'EQUIPE-->
 
@@ -26,10 +33,9 @@
           <img class="img-circle center-block formateur" src="bootstrap/img/formateur1.jpg" width="180" height="180">
           <div class="panel panel-info">
             <div class="panel-heading">
-              <h3 class="panel-title"><strong>C. Joubert - Formateur</strong></h3>
+              <h3 class="panel-title"><strong>C. Joubert - <?php echo $str[1]; ?></strong></h3>
               <div class="panel-body">
-                Sa mission consiste dans
-                un premier temps à préparer les cours ainsi que la salle de formation puis dans un deuxième temps, assurer l’animation de la formation et l’évaluation des apprenants le cas échéant. 
+                <p class="text-justify"><?php echo $str[2]; ?></p>
                 <hr>
                 <div class="col-xs-12 social-btns">
                  
@@ -63,10 +69,9 @@
           <img class="img-circle center-block formateur" src="bootstrap/img/formateur1.jpg" width="180" height="180">
           <div class="panel panel-info">
             <div class="panel-heading" style="height:231px;">
-              <h3 class="panel-title"><strong>S. Millot - Formateur & Gestion relation client</strong></h3>
+              <h3 class="panel-title"><strong>S. Millot - <?php echo $str[3]; ?></strong></h3>
               <div class="panel-body">
-                Sa mission consiste à accompagner notamment les clients
-                dans leurs demandes spécifiques et définit avec eux une solution de formation sur mesure.
+                <p class="text-justify"><?php echo $str[4]; ?></p>
                 <hr>
                 <div class="col-xs-12 social-btns">
                  
@@ -101,10 +106,9 @@
           <img class="img-circle center-block formateur" src="bootstrap/img/formateur1.jpg" alt="Generic placeholder image" width="180" height="180">
           <div class="panel panel-info">
             <div class="panel-heading">
-              <h3 class="panel-title border"><strong>L. Schmitt - Assistante de gestion</strong></h3>
+              <h3 class="panel-title border"><strong>L. Schmitt - <?php echo $str[5]; ?></strong></h3>
               <div class="panel-body">
-                Sa mission consiste à assurer un
-                certain nombre de tâches comme la gestion administrative, la gestion des inscriptions, la facturation, ... En outre, elle a en charge l’accueil des participants aux formations et de la gestion des appels téléphoniques.  
+                <p class="text-justify"><?php echo $str[6]; ?></p>
                 <hr>
                 <div class="col-xs-12 social-btns">
                  
@@ -143,8 +147,7 @@
         <div class="col-lg-12">
           <div class="panel panel-info">
             <h3 class="panel-body text-center">
-              Pour faire face aux pics d’activité ou pour répondre à des formations dans des domaines
-              spécifiques, PRIXY a recours occasionnellement à des experts-formateurs indépendants. 
+              <?php echo $str[7]; ?>
             </h3>  
           </div>
         </div>

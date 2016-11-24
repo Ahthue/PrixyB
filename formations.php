@@ -19,11 +19,9 @@
 
 	<body>
 
-		<?php 
-			include('nav.php');
-			include ('fonction.inc.php');	
-
-		?>
+		
+			<?php session_start(); ?>
+			<?php include('testnav.php'); ?>
 
 		<!--SUR MESURE-->
 
