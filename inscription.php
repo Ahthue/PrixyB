@@ -1,40 +1,40 @@
 <!DOCTYPE html>
-<html>
-    <head>
-      <title>Prixy | Formation</title>
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <link rel="icon" href="bootstrap/img/favicon.png">
-      <script src="bootstrap/js/jquery-1.12.1.min.js"></script>
-      <script src="bootstrap/js/bootstrap.min.js"></script>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
-      <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-      <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-      <link href="bootstrap/fontawesome/css/font-awesome.min.css" rel="stylesheet">
-      <link href="bootstrap/css/style.css" rel="stylesheet">
-  </head>
-
-  <body
-<?php include('nav.php'); ?>
+<html>   
+	<head>
+		<title>Prixy | Formation</title>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" href="bootstrap/img/favicon.png">
+		 <script src="bootstrap/js/jquery-1.12.1.min.js"></script>
+		<script src="bootstrap/js/bootstrap.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+		<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+		<link href="bootstrap/fontawesome/css/font-awesome.min.css" rel="stylesheet">
+		<link href="bootstrap/css/style.css" rel="stylesheet">
+	</head>
+  
+  <body>
+<?php include('testnav.php'); ?>
     
 
 <div class="container input-co text-center">
       <h1>Formulaire d'inscription</h1>
-
-      <!-- formulaire d'inscription -->
+	  
+	  <!-- formulaire d'inscription -->
       <form action="inscription.php" method = "post">
 
         <!-- Zone de texte pour le nom et prénom -->    
         <div class="row col-lg-12"> 
           <div class="input-group col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1">
             <span class="input-group-addon" id="basic-addon3">Nom</span>
-            <input type="text" class="form-control" name = "nom" maxlength = "25" placeholder = "Exemple : Bono" required = "required" value = "">
+            <input type="text" class="form-control" name="nom" maxlength = "25" placeholder = "Exemple : Bono" required = "required" value = "">
           </div>
 
           <div class="row input-group col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1">
             <span class="input-group-addon" id="basic-addon3">Prénom</span>
-            <input type="text" class="form-control" maxlength = "25" name = "prenom" placeholder = "Exemple : Jean" required = "required" value = "">
+            <input type="text" class="form-control" maxlength = "25" name="prenom" placeholder = "Exemple : Jean" required = "required" value = "">
           </div>
         </div>
 
@@ -73,7 +73,7 @@
             </span>       
         </div>
 
-        <!-- 3 Boutons déroulants (jour, mois, année) qui permettent de choisir sa date de naissance -->  
+        <!-- une date calendrier qui permet de choisir sa date de naissance -->  
         <div class="row col-lg-12 col-md-12"> 
           <div class="input-group col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1">
             <span class="input-group-addon" id="basic-addon3">Date de naissance</span>
@@ -140,15 +140,11 @@
           <div class="row input-group col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1">            
             <span class="input-group-addon" id="basic-addon3">Confirmer MdP</span>
             <input type="password" class="form-control" name = "conf_mdp" maxlength = "25" pattern="^(?=.{8,})(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9]).*$" title = "Le mot de passe requiert 8 caractères min., 1 majuscule min., une minuscule min. et un nombre." placeholder = "Confirmer votre mot de passe." required = "required">
-          </div>
-                    
+          </div>                    
+		  <br />
         </div>
 
-        <div class="row col-lg-10 col-lg-offset-1 col-md-10 col-md-offset-1 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1"><hr></div>
-
-        <div class="row col-lg-6 col-lg-offset-3 col-md-6 col-md-offset-3 col-sm-6 col-sm-offset-3 col-xs-10 col-xs-offset-1 checkbox">
-          <label><input type="checkbox" name = "news" value="" checked>Cochez cette case pour recevoir notre Newsletter</label>
-        </div>
+		
 
         <!-- Bouton de validation du formulaire d'inscription --> 
         <div class = "row"></div>
@@ -161,6 +157,8 @@
 
 <?php include ('footer.php'); ?>
 	
+	</body>
+</html>
 
 <script>
 $(document).ready(function(){
@@ -168,5 +166,3 @@ $(document).ready(function(){
 });
 </script>
 
-	</body>
-</html>

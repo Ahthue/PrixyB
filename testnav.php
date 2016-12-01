@@ -1,5 +1,4 @@
-<?php require "localization.php"; ?>
-
+<?php include 'fonction.inc.php'; ?>
 <div class="navbar-header navbar-fixed-top navbar-inverse">
   <button data-toggle="collapse" data-target="#items_nav_container" class="navbar-toggle">
       <span class="sr-only">Afficher le menu</span>
@@ -20,26 +19,22 @@
     </a>
     <a class="item_nav" href="/PrixyPPE/contact.php">
       <span class="glyphicon glyphicon-user"> <b>Contact &amp; Partenaires</b></span>
-    </a>
-    <!-- <a class="item_nav" href="#" title="Facebook">
-    <i class="fa fa-facebook fa-lg"></i>
-    </a>
-    <a class="item_nav"  href="#" title="Twitter">
-    <i class="fa fa-twitter fa-lg"></i>
-    </a>
-    <a class="item_nav"  href="#" title="LinkedIn">
-    <i class="fa fa-linkedin fa-lg"></i>
-    </a>
-    <a class="item_nav" href="#" title="Youtube">
-    <i class="fa fa-youtube fa-lg"></i>
-    </a>
-    <a class="item_nav" href="#" title="Pinterest">
-    <i class="fa fa-pinterest-p fa-lg"></i>
-    </a> -->
+    </a>    
     <div class="buttons_grp">
       <div class="btn-group group_nav pull-right" role="group">
-        <a href="connexion.php" class="btn btn-md btn-primary" role="button">Connexion</a>
-        <a href="inscription.php" class="btn btn-md btn-primary" role="button">Inscription</a>
+		<?php
+			if(isset($_SESSION['pseudonyme']))
+			{
+				echo '<a href="profil.php" class="btn btn-md btn-primary" role="button">'.$_SESSION['pseudonyme'].'</a>';
+				echo '<a href="deconnexion.php" class="btn btn-md btn-primary" role="button">Deconnexion</a>';
+			}
+			else
+			{
+				echo '<a href="connexion.php" class="btn btn-md btn-primary" role="button">Connexion</a>';
+				echo '<a href="inscription.php" class="btn btn-md btn-primary" role="button">Inscription</a>';
+			}
+		?>		
+        
       </div>
       <div class="dropdown group_nav2 pull-right">
         <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">Langue <span class="caret"></span></button>
